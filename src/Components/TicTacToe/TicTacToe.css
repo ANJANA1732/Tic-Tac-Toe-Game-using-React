@@ -1,0 +1,53 @@
+.container {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.title {
+    margin-top: 50px;
+    color: black;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset {
+    width: 200px;
+    height: 80px;
+    border: none;
+    outline: none;
+    color: aquamarine;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background-color: black;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.boxes {
+    display: flex;
+    height: 180px;
+    width: 180px;
+    background: #3e4946;
+    border: 4px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    height: 600px;
+    width: 564px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.boxes img {
+    width: 80%;
+    height: 80%;
+}
+.winner-icon {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
